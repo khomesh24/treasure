@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{treasure.name}}</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" ></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" ></script>
+</head>
+<body>
+    <div class="container">
+        <h1>{{treasure.name}}</h1>
+        <div class="row">
+            <div class="col-md-5">
+                <img src="{{treasure.img_url}}" height="400" width="400">
+            </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-5">
+                <h3>Value: {{treasure.value}}</h3>
+                <h3>Location: {{treasure.location}}</h3>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
